@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "ES5",
+    "allowJs": true,
+    "outDir": "build",
+    "moduleResolution": "node"
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "*.md", "Makefile", "karma.*", "test", "test-e2e"]
+}
